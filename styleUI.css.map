@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "styleUI.scss"
+    ],
+    "names": [],
+    "file": "styleUI.css"
+}

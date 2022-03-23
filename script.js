@@ -44,12 +44,15 @@ const data = [
 function loadEvent() {
   for (let i = 0; i < data.length; i++) {
     let element = `  
+	
       <section class="card">
             
 	  <div class="sub">${data[i].sub}</div>
             <h2>${data[i].title}</h2>
             <p>${data[i].text}</p>
-            <button>Save</button>
+            <button><div class="text">Save</div> <span class="material-icons">
+east
+</span></button>
         </section>
         `;
     document.getElementById('root').insertAdjacentHTML('beforeend', element);
