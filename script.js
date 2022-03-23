@@ -41,6 +41,19 @@ const data = [
   },
 ];
 
-function loadEvent() {}
+function loadEvent() {
+  for (let i = 0; i < data.length; i++) {
+    let element = `  
+      <section class="card">
+            
+	  <div class="sub">${data[i].sub}</div>
+            <h2>${data[i].title}</h2>
+            <p>${data[i].text}</p>
+            <button>Save</button>
+        </section>
+        `;
+    document.getElementById('root').insertAdjacentHTML('beforeend', element);
+  }
+}
 
 window.addEventListener('load', loadEvent);
