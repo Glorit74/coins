@@ -71,6 +71,11 @@ header div {
   height: 36px;
 }
 
+.home .material-icons {
+	transform: scale(1.8);
+
+}
+
 .menu {
   display: flex;
   justify-content: center;
@@ -80,6 +85,10 @@ header div {
   border-radius: 100%;
   background-color: #666;
   color: #fff;
+}
+
+.menu .material-icons {
+	transform: scale(1.5);
 }
 
 .card {
@@ -98,7 +107,7 @@ header div {
 h2 {
   font-size: 18px;
   padding-bottom: 5px;
-  border-bottom: 2px solid rgb(68, 29, 29);
+  border-bottom: 2px solid #666);
   margin-bottom: 10px;
 }
 p {
@@ -131,6 +140,7 @@ button {
   background-color: #fff;
   color: #666;
   font-size: 14px;
+  font-weight: 600;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   border: 2px solid #666;
   border-radius: 30px;
